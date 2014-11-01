@@ -23,7 +23,7 @@
         <li><a class="spc-comment-edit" data-id="{{comment.id}}" data-toggle="modal" href="#spc-comment-edit-modal" role="button"><small>edit</small></a></li>
         {% endifequal %}
     {% endif %}
-        <li><small><a href="{% get_comment_permalink comment %}">permalink</a></small></li>
+<!--         <li><small><a href="{% get_comment_permalink comment %}">permalink</a></small></li> -->
         <li><small>by <a href="{{comment.user.profile.get_absolute_url}}">{{comment.user.username}}</a> on {{comment.submit_date}}</small></li>
     </ul>
 
